@@ -1,0 +1,153 @@
+.contactsAnimate .scroll {
+  animation: 15s scrollAnimate linear forwards;
+}
+.contactsAnimate .b1 {
+  animation: 15s b1Animate linear forwards;
+}
+.contactsAnimate .b2 {
+  animation: 15s b2Animate linear forwards;
+}
+.contactsAnimate .b3 {
+  animation: 15s b3Animate linear forwards;
+}
+.contactsAnimate .b4 {
+  animation: 15s b4Animate linear forwards;
+}
+
+.contacts {
+  z-index: 5;
+  position: absolute;
+  left: 10500px;
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+.contacts .scroll {
+  background-image: url("../images/scroll.png");
+  background-size: 100% 100%;
+  width: 70vw;
+  height: 90vh;
+  position: absolute;
+  left: 100vw;
+  top: 103vh;
+  padding: 15vh 10vw;
+  text-align: center;
+}
+.contacts .scroll a {
+  color: black;
+}
+.contacts .scroll .title {
+  font-size: 10vh;
+}
+.contacts .scroll .links {
+  margin-top: 10vh;
+  margin-left: 5vw;
+  text-align: left;
+}
+.contacts .scroll .links li {
+  list-style: none;
+  font-size: 6vh;
+}
+.contacts .scroll .links li a {
+  text-decoration: none;
+}
+.contacts .scroll .links li i {
+  font-size: 4vh;
+  margin-right: 1rem;
+}
+.contacts .scroll .otherLinks {
+  margin-top: 5vh;
+}
+.contacts .scroll .otherLinks a {
+  font-size: 5vh;
+  margin-right: 5vh;
+}
+.contacts .scroll .cvlink {
+  font-size: 5vh;
+  margin-top: 10vh;
+}
+.contacts .b1, .contacts .b2, .contacts .b3, .contacts .b4 {
+  background-image: url("../images/bird.gif");
+  background-size: 100% 100%;
+  transform: scaleX(-1);
+  width: 12vh;
+  height: 12vh;
+  position: absolute;
+  left: 100vw;
+  top: 100vh;
+}
+
+@keyframes scrollAnimate {
+  100% {
+    left: 15vw;
+    top: 5vh;
+  }
+  50% {
+    left: 15vw;
+    top: 5vh;
+  }
+  0% {
+    left: 100vh;
+    top: 103vh;
+  }
+}
+@keyframes b1Animate {
+  100% {
+    left: -5vw;
+    top: -20vh;
+    display: none;
+  }
+  50% {
+    left: 15vw;
+    top: -2vh;
+  }
+  0% {
+    left: 120vh;
+    top: 100vh;
+  }
+}
+@keyframes b2Animate {
+  100% {
+    left: 15vw;
+    top: -20vh;
+    display: none;
+  }
+  50% {
+    left: 35vw;
+    top: -2vh;
+  }
+  0% {
+    left: 140vh;
+    top: 100vh;
+  }
+}
+@keyframes b3Animate {
+  100% {
+    left: 35vw;
+    top: -20vh;
+    display: none;
+  }
+  50% {
+    left: 55vw;
+    top: -2vh;
+  }
+  0% {
+    left: 160vh;
+    top: 100vh;
+  }
+}
+@keyframes b4Animate {
+  100% {
+    left: 55vw;
+    top: -20vh;
+    display: none;
+  }
+  50% {
+    left: 75vw;
+    top: -2vh;
+  }
+  0% {
+    left: 180vh;
+    top: 100vh;
+  }
+}/*# sourceMappingURL=end.css.map */

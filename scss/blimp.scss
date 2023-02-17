@@ -1,0 +1,43 @@
+
+$boxSize:5vw;
+
+.blimp{
+    background-repeat: no-repeat;
+    background-size: auto $boxSize*2;
+    width: $boxSize* 6;
+    height: $boxSize* 2;
+    position: absolute;
+    animation: blimpMovement 100s linear infinite;
+    background-image: url('../images/blimp.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    p{
+        font-size: 9vh;
+        color: wheat;
+        text-shadow: 2px 3px black;
+    }
+}
+
+$locs:100,2000,5500,8000;
+$x:1;
+
+@each $loc in $locs{
+    .blimp#{$x}{
+        left:calc($loc * 1px + 100vw);
+    }
+    $x:$x+1;
+}
+
+@keyframes blimpMovement {
+    100% {
+        bottom: 75vh;
+    }
+    50% {
+        bottom: 70vh;
+    }
+    0% {
+        bottom: 75vh;
+    }
+}

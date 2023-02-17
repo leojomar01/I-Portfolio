@@ -1,0 +1,144 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "8-bit_arcade_inmedium";
+  box-sizing: border-box;
+}
+
+.scrollLeftLoc {
+  z-index: 99;
+  position: fixed;
+  top: 10%;
+}
+
+.avatar {
+  position: fixed;
+  top: 62vh;
+  left: 10vw;
+  width: 20vh;
+  height: 20vh;
+  z-index: 999;
+}
+.avatar .model {
+  background-size: auto 20vh;
+  background-repeat: repeat-x;
+  background-attachment: local;
+  width: 20vh;
+  height: 20vh;
+}
+.avatar .model:hover {
+  cursor: pointer;
+}
+.avatar .left {
+  transform: scaleX(-1);
+}
+.avatar .right {
+  transform: scaleX(1);
+}
+.avatar .idle {
+  background-image: url("../images/cat.gif");
+}
+.avatar .walking {
+  background-image: url("../images/walkingCat.gif");
+}
+.avatar .meowning {
+  background-image: url("../images/meow.gif");
+}
+.avatar .end {
+  background-image: url("../images/meow.gif");
+}
+
+.nightMode {
+  position: fixed;
+  top: 10vh;
+  left: 20vh;
+  font-size: 15vh;
+  z-index: 4;
+}
+.nightMode .sun {
+  color: yellow;
+}
+.nightMode .moon {
+  color: aliceblue;
+}
+
+.sticky-parent {
+  height: calc(31500px + 100vh);
+}
+.sticky-parent .sticky {
+  position: sticky;
+  top: 0;
+  bottom: 0;
+  max-height: 100vh;
+  height: 100vh;
+  overflow: scroll;
+  background-repeat: repeat-x;
+  background-attachment: local;
+}
+.sticky-parent .sticky .content {
+  width: calc(10500px + 100vw);
+  height: 100vh;
+}
+.sticky-parent .sticky::-webkit-scrollbar {
+  display: none;
+}
+.sticky-parent .building {
+  background-size: auto 50vh;
+  background-position: 0% 60%;
+}
+.sticky-parent .bldg1 {
+  background-image: url("../images/building1.png");
+  z-index: 4;
+}
+.sticky-parent .bldg2 {
+  background-image: url("../images/building2.png");
+  z-index: 3;
+}
+.sticky-parent .bldg3 {
+  background-image: url("../images/building3.png");
+  z-index: 2;
+}
+.sticky-parent .path {
+  background-image: url("../images/path.png");
+  background-size: auto 20vh;
+  background-position: 0 100%;
+  z-index: 50;
+}
+.sticky-parent .sky {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-size: auto 70vh;
+  z-index: 1;
+}
+.sticky-parent .bgMorning {
+  background-image: url("../images/bgMorning.png");
+}
+.sticky-parent .bgNight {
+  background-image: url("../images/bgNight.png");
+}
+.sticky-parent .cloud {
+  position: fixed;
+  background-size: 50vw 30vh;
+  height: 100vh;
+  width: 200vw;
+  top: 0vh;
+  z-index: 6;
+  background-repeat: repeat-x;
+  animation: cloudMovingAnimation 500s linear infinite;
+}
+.sticky-parent .cloudMorning {
+  background-image: url("../images/cloudMorning.png");
+}
+.sticky-parent .cloudNight {
+  background-image: url("../images/cloudNight.png");
+}
+
+@keyframes cloudMovingAnimation {
+  100% {
+    left: -100vw;
+  }
+  0% {
+    left: 0vw;
+  }
+}/*# sourceMappingURL=index.css.map */

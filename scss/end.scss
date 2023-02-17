@@ -1,0 +1,114 @@
+$duration:15s;
+
+
+.contactsAnimate{
+    .scroll{
+        animation: $duration scrollAnimate linear forwards ;
+    }
+    @for $i from 1 through 4{
+        .b#{$i}{
+            animation: $duration b#{$i}Animate linear forwards ;
+        }
+    }
+}
+.contacts{
+    z-index: 5;
+    position: absolute;
+    left: 10500px;
+    height:100vh;
+    width:100vw;
+    overflow: hidden;
+    .scroll{
+        background-image: url('../images/scroll.png');
+        background-size: 100% 100%;
+        width: 70vw;
+        height: 90vh;
+        position: absolute;
+        left: 100vw;
+        top:103vh;
+        padding: 15vh 10vw;
+        text-align: center;
+        a{
+            color: black;
+        }
+        .title{
+            font-size: 10vh;
+        }
+        .links{
+            margin-top: 10vh;
+            margin-left: 5vw;
+            text-align: left;
+
+            li{
+                list-style: none;
+                font-size: 6vh;
+                a{
+                    text-decoration: none;
+                }
+                i{
+                    font-size: 4vh;
+                    margin-right: 1rem;
+                }
+            }
+            
+        }
+        .otherLinks{
+            margin-top: 5vh;
+            a{
+                font-size: 5vh;
+                margin-right: 5vh;
+            }
+        }
+        .cvlink{
+            font-size: 5vh;
+            margin-top: 10vh;
+        }
+    }
+
+    .b1,.b2,.b3,.b4{
+        background-image: url('../images/bird.gif');
+        background-size: 100% 100%;
+        transform:scaleX(-1);
+        width: 12vh;
+        height: 12vh;
+        position: absolute;
+        left: 100vw;
+        top:100vh;
+    }
+    
+}
+
+
+
+@keyframes  scrollAnimate {
+    100%{
+        left: 15vw;
+        top:5vh;
+    }
+    50%{
+        left: 15vw;
+        top:5vh;
+    }
+    0%{
+        left: 100vh;
+        top:  103vh;
+    }
+}
+
+@for $i from 1 through 4{
+    @keyframes b#{$i}Animate {
+        100%{
+            left: -25vw + ($i*20);
+            top:-20vh;
+            display: none;
+        }
+        50%{
+            left: -5vw + ($i*20);
+            top:-2vh;
+        }
+        0%{
+            left: 100vh  + ($i*20);
+            top:  100vh;
+        }
+    }
+}

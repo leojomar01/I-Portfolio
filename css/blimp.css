@@ -1,0 +1,46 @@
+.blimp {
+  background-repeat: no-repeat;
+  background-size: auto 10vw;
+  width: 30vw;
+  height: 10vw;
+  position: absolute;
+  animation: blimpMovement 100s linear infinite;
+  background-image: url("../images/blimp.png");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.blimp p {
+  font-size: 9vh;
+  color: wheat;
+  text-shadow: 2px 3px black;
+}
+
+.blimp1 {
+  left: calc(100px + 100vw);
+}
+
+.blimp2 {
+  left: calc(2000px + 100vw);
+}
+
+.blimp3 {
+  left: calc(5500px + 100vw);
+}
+
+.blimp4 {
+  left: calc(8000px + 100vw);
+}
+
+@keyframes blimpMovement {
+  100% {
+    bottom: 75vh;
+  }
+  50% {
+    bottom: 70vh;
+  }
+  0% {
+    bottom: 75vh;
+  }
+}/*# sourceMappingURL=blimp.css.map */

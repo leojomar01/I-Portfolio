@@ -1,0 +1,133 @@
+.textBox {
+  background-image: url("../images/messageBox.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 5vh;
+  text-align: center;
+  color: white;
+  text-shadow: 1vh 0.5vh black;
+}
+
+.texts {
+  z-index: 51;
+}
+.texts .content .welcome {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.texts .content .welcome .intro {
+  margin-bottom: 20vh;
+}
+.texts .content .welcome .intro .name {
+  font-size: 10vh;
+}
+.texts .content .welcome .intro p {
+  font-size: 5vh;
+}
+.texts .content .welcome .intro p a {
+  color: white;
+}
+.texts .content .welcome .instruction {
+  animation: blinker 1s linear infinite;
+  text-align: center;
+  color: white;
+  text-shadow: 1vh 0.5vh black;
+  font-size: 5vh;
+}
+.texts .content .about {
+  left: calc(100vw + 500px);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+.texts .content .about .textBox {
+  margin-top: -15vh;
+  width: 70vw;
+  text-align: left;
+}
+.texts .content .about .textBox .indent {
+  text-indent: 5rem;
+}
+.texts .content .about .textBox p {
+  font-size: 5vh;
+}
+.texts .content .project {
+  position: absolute;
+  width: 30vw;
+  height: 70vh;
+  top: 20vh;
+}
+.texts .content .project .title {
+  height: 50%;
+  margin: 8% 5%;
+  text-align: center;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid red;
+}
+.texts .content .project .title h2 {
+  color: rgb(119, 119, 119);
+  text-shadow: 0.5vh 0.5vh black;
+  font-size: 4vh;
+}
+.texts .content .project .title p {
+  font-size: 10vh;
+  color: white;
+  text-shadow: 1vh 0.5vh black;
+}
+.texts .content .project .title a {
+  color: white;
+  text-shadow: 1vh 0.5vh black;
+  font-size: 5vh;
+  animation: blinker 1s linear infinite;
+}
+
+.billboards {
+  z-index: 40;
+}
+.billboards .projects {
+  height: 100vh;
+}
+.billboards .projects .billboard {
+  top: 20vh;
+  position: absolute;
+  width: 30vw;
+  height: 70vh;
+  background-image: url("../images/billboard.png");
+  background-size: 100% 100%;
+}
+
+.billBoardProject1 {
+  left: calc(100vw + 5500px + 500px);
+}
+
+.billBoardProject2 {
+  left: calc(100vw + 5500px + 1000px);
+}
+
+.billBoardProject3 {
+  left: calc(100vw + 5500px + 1500px);
+}
+
+.billBoardProject4 {
+  left: calc(100vw + 5500px + 2000px);
+}
+
+.billBoardProject21 {
+  left: calc(100vw + 8000px + 500px);
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=texts.css.map */
