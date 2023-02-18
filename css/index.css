@@ -5,16 +5,22 @@
   box-sizing: border-box;
 }
 
+:root {
+  --doc-height: 100%;
+}
+
 html,
 body {
   max-height: 100vh;
   min-height: 100vh;
+  height: var(--doc-height);
 }
 
 .swipeArea {
   visibility: hidden;
   z-index: 99;
   height: 100vh;
+  height: var(--doc-height);
   width: 20vw;
   background-color: white;
   border-radius: 5%;
@@ -83,6 +89,7 @@ body {
   bottom: 0;
   max-height: 100vh;
   height: 100vh;
+  height: var(--doc-height);
   overflow: scroll;
   background-repeat: repeat-x;
   background-attachment: local;
@@ -120,6 +127,7 @@ body {
   position: fixed;
   width: 100vw;
   height: 100vh;
+  height: var(--doc-height);
   background-size: auto 70vh;
   z-index: 1;
 }
@@ -133,6 +141,7 @@ body {
   position: fixed;
   background-size: 50vw 30vh;
   height: 100vh;
+  height: var(--doc-height);
   width: 200vw;
   top: 0vh;
   z-index: 6;
