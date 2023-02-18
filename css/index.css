@@ -5,10 +5,22 @@
   box-sizing: border-box;
 }
 
-.scrollLeftLoc {
+html,
+body {
+  max-height: 100vh;
+  min-height: 100vh;
+}
+
+.swipeArea {
+  display: none;
   z-index: 99;
+  height: 100vh;
+  width: 20vw;
+  background-color: white;
+  border-radius: 5%;
   position: fixed;
-  top: 10%;
+  left: 80vw;
+  animation: blinker 1s infinite linear;
 }
 
 .avatar {

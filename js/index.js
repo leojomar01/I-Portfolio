@@ -34,6 +34,10 @@ function horizontalScroll(){
     
 //changing the direction depends on scroll
 window.onscroll = function(e) {
+
+    document.querySelector('.swipeArea').style.opacity="0";
+    document.querySelector('.instruction').style.visibility="hidden";
+    document.querySelector('.instructionM').style.visibility="hidden";
     if(this.oldScroll < this.scrollY){
     console.log("right");
     model.classList.remove('left');

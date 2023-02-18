@@ -18,552 +18,552 @@
 
 .bird1 {
   background-image: url("../images/bird.gif");
-  left: calc(114vw + 2700px);
-  bottom: 56vh;
-  animation: rotate1 72s linear infinite;
+  left: calc(170vw + 2700px);
+  bottom: 38vh;
+  animation: rotate1 69s linear infinite;
 }
 
 .box1 {
-  bottom: 56vh;
-  left: calc(114vw + 2700px);
+  bottom: 38vh;
+  left: calc(170vw + 2700px);
   background-image: url("../images/flags/css.gif");
-  animation: boxRotate1 72s linear infinite;
+  animation: boxRotate1 69s linear infinite;
 }
 
 @keyframes rotate1 {
   100% {
-    left: calc(114vw + 2700px);
-    bottom: 56vh;
+    left: calc(170vw + 2700px);
+    bottom: 38vh;
   }
   50% {
-    left: calc(114vw + 2700px + 7vw);
-    bottom: 69vh;
+    left: calc(170vw + 2700px + 1vw);
+    bottom: 46vh;
   }
   0% {
-    left: calc(114vw + 2700px);
-    bottom: 56vh;
+    left: calc(170vw + 2700px);
+    bottom: 38vh;
   }
 }
 @keyframes boxRotate1 {
   100% {
-    left: calc(114vw + 2700px - 7.5vw);
-    bottom: 56vh;
+    left: calc(170vw + 2700px - 7.5vw);
+    bottom: 38vh;
   }
   50% {
-    left: calc(114vw + 2700px - 7.5vw + 7vw);
-    bottom: 69vh;
+    left: calc(170vw + 2700px - 7.5vw + 1vw);
+    bottom: 46vh;
   }
   0% {
-    left: calc(114vw + 2700px - 7.5vw);
-    bottom: 56vh;
+    left: calc(170vw + 2700px - 7.5vw);
+    bottom: 38vh;
   }
 }
 .bird2 {
   background-image: url("../images/bird.gif");
-  left: calc(121vw + 2700px);
-  bottom: 50vh;
-  animation: rotate2 74s linear infinite;
+  left: calc(128vw + 2700px);
+  bottom: 26vh;
+  animation: rotate2 79s linear infinite;
 }
 
 .box2 {
-  bottom: 50vh;
-  left: calc(121vw + 2700px);
+  bottom: 26vh;
+  left: calc(128vw + 2700px);
   background-image: url("../images/flags/html.gif");
-  animation: boxRotate2 74s linear infinite;
+  animation: boxRotate2 79s linear infinite;
 }
 
 @keyframes rotate2 {
   100% {
-    left: calc(121vw + 2700px);
-    bottom: 50vh;
+    left: calc(128vw + 2700px);
+    bottom: 26vh;
   }
   50% {
-    left: calc(121vw + 2700px - 16vw);
-    bottom: 49vh;
+    left: calc(128vw + 2700px + 10vw);
+    bottom: 36vh;
   }
   0% {
-    left: calc(121vw + 2700px);
-    bottom: 50vh;
+    left: calc(128vw + 2700px);
+    bottom: 26vh;
   }
 }
 @keyframes boxRotate2 {
   100% {
-    left: calc(121vw + 2700px - 7.5vw);
-    bottom: 50vh;
+    left: calc(128vw + 2700px - 7.5vw);
+    bottom: 26vh;
   }
   50% {
-    left: calc(121vw + 2700px - 7.5vw - 16vw);
-    bottom: 49vh;
+    left: calc(128vw + 2700px - 7.5vw + 10vw);
+    bottom: 36vh;
   }
   0% {
-    left: calc(121vw + 2700px - 7.5vw);
-    bottom: 50vh;
+    left: calc(128vw + 2700px - 7.5vw);
+    bottom: 26vh;
   }
 }
 .bird3 {
   background-image: url("../images/bird.gif");
-  left: calc(121vw + 2700px);
-  bottom: 74vh;
-  animation: rotate3 37s linear infinite;
+  left: calc(170vw + 2700px);
+  bottom: 62vh;
+  animation: rotate3 47s linear infinite;
 }
 
 .box3 {
-  bottom: 74vh;
-  left: calc(121vw + 2700px);
+  bottom: 62vh;
+  left: calc(170vw + 2700px);
   background-image: url("../images/flags/js.gif");
-  animation: boxRotate3 37s linear infinite;
+  animation: boxRotate3 47s linear infinite;
 }
 
 @keyframes rotate3 {
   100% {
-    left: calc(121vw + 2700px);
-    bottom: 74vh;
+    left: calc(170vw + 2700px);
+    bottom: 62vh;
   }
   50% {
-    left: calc(121vw + 2700px + 20vw);
-    bottom: 82vh;
+    left: calc(170vw + 2700px + 15vw);
+    bottom: 64vh;
   }
   0% {
-    left: calc(121vw + 2700px);
-    bottom: 74vh;
+    left: calc(170vw + 2700px);
+    bottom: 62vh;
   }
 }
 @keyframes boxRotate3 {
   100% {
-    left: calc(121vw + 2700px - 7.5vw);
-    bottom: 74vh;
+    left: calc(170vw + 2700px - 7.5vw);
+    bottom: 62vh;
   }
   50% {
-    left: calc(121vw + 2700px - 7.5vw + 20vw);
-    bottom: 82vh;
+    left: calc(170vw + 2700px - 7.5vw + 15vw);
+    bottom: 64vh;
   }
   0% {
-    left: calc(121vw + 2700px - 7.5vw);
-    bottom: 74vh;
+    left: calc(170vw + 2700px - 7.5vw);
+    bottom: 62vh;
   }
 }
 .bird4 {
   background-image: url("../images/bird.gif");
   left: calc(107vw + 2700px);
-  bottom: 68vh;
-  animation: rotate4 75s linear infinite;
+  bottom: 62vh;
+  animation: rotate4 66s linear infinite;
 }
 
 .box4 {
-  bottom: 68vh;
+  bottom: 62vh;
   left: calc(107vw + 2700px);
   background-image: url("../images/flags/laravel.gif");
-  animation: boxRotate4 75s linear infinite;
+  animation: boxRotate4 66s linear infinite;
 }
 
 @keyframes rotate4 {
   100% {
     left: calc(107vw + 2700px);
-    bottom: 68vh;
+    bottom: 62vh;
   }
   50% {
-    left: calc(107vw + 2700px + 16vw);
-    bottom: 76vh;
+    left: calc(107vw + 2700px + 3vw);
+    bottom: 68vh;
   }
   0% {
     left: calc(107vw + 2700px);
-    bottom: 68vh;
+    bottom: 62vh;
   }
 }
 @keyframes boxRotate4 {
   100% {
     left: calc(107vw + 2700px - 7.5vw);
-    bottom: 68vh;
+    bottom: 62vh;
   }
   50% {
-    left: calc(107vw + 2700px - 7.5vw + 16vw);
-    bottom: 76vh;
+    left: calc(107vw + 2700px - 7.5vw + 3vw);
+    bottom: 68vh;
   }
   0% {
     left: calc(107vw + 2700px - 7.5vw);
-    bottom: 68vh;
+    bottom: 62vh;
   }
 }
 .bird5 {
   background-image: url("../images/bird.gif");
-  left: calc(163vw + 2700px);
-  bottom: 32vh;
-  animation: rotate5 54s linear infinite;
+  left: calc(142vw + 2700px);
+  bottom: 56vh;
+  animation: rotate5 31s linear infinite;
 }
 
 .box5 {
-  bottom: 32vh;
-  left: calc(163vw + 2700px);
+  bottom: 56vh;
+  left: calc(142vw + 2700px);
   background-image: url("../images/flags/reactJS.gif");
-  animation: boxRotate5 54s linear infinite;
+  animation: boxRotate5 31s linear infinite;
 }
 
 @keyframes rotate5 {
   100% {
-    left: calc(163vw + 2700px);
-    bottom: 32vh;
+    left: calc(142vw + 2700px);
+    bottom: 56vh;
   }
   50% {
-    left: calc(163vw + 2700px + 18vw);
-    bottom: 46vh;
+    left: calc(142vw + 2700px - 12vw);
+    bottom: 65vh;
   }
   0% {
-    left: calc(163vw + 2700px);
-    bottom: 32vh;
+    left: calc(142vw + 2700px);
+    bottom: 56vh;
   }
 }
 @keyframes boxRotate5 {
   100% {
-    left: calc(163vw + 2700px - 7.5vw);
-    bottom: 32vh;
+    left: calc(142vw + 2700px - 7.5vw);
+    bottom: 56vh;
   }
   50% {
-    left: calc(163vw + 2700px - 7.5vw + 18vw);
-    bottom: 46vh;
+    left: calc(142vw + 2700px - 7.5vw - 12vw);
+    bottom: 65vh;
   }
   0% {
-    left: calc(163vw + 2700px - 7.5vw);
-    bottom: 32vh;
+    left: calc(142vw + 2700px - 7.5vw);
+    bottom: 56vh;
   }
 }
 .bird6 {
   background-image: url("../images/bird.gif");
   left: calc(135vw + 2700px);
-  bottom: 80vh;
-  animation: rotate6 58s linear infinite;
+  bottom: 68vh;
+  animation: rotate6 75s linear infinite;
 }
 
 .box6 {
-  bottom: 80vh;
+  bottom: 68vh;
   left: calc(135vw + 2700px);
   background-image: url("../images/flags/sass.gif");
-  animation: boxRotate6 58s linear infinite;
+  animation: boxRotate6 75s linear infinite;
 }
 
 @keyframes rotate6 {
   100% {
     left: calc(135vw + 2700px);
-    bottom: 80vh;
+    bottom: 68vh;
   }
   50% {
-    left: calc(135vw + 2700px + 9vw);
-    bottom: 82vh;
+    left: calc(135vw + 2700px - 5vw);
+    bottom: 66vh;
   }
   0% {
     left: calc(135vw + 2700px);
-    bottom: 80vh;
+    bottom: 68vh;
   }
 }
 @keyframes boxRotate6 {
   100% {
     left: calc(135vw + 2700px - 7.5vw);
-    bottom: 80vh;
+    bottom: 68vh;
   }
   50% {
-    left: calc(135vw + 2700px - 7.5vw + 9vw);
-    bottom: 82vh;
+    left: calc(135vw + 2700px - 7.5vw - 5vw);
+    bottom: 66vh;
   }
   0% {
     left: calc(135vw + 2700px - 7.5vw);
-    bottom: 80vh;
+    bottom: 68vh;
   }
 }
 .bird7 {
   background-image: url("../images/bird.gif");
-  left: calc(128vw + 2700px);
-  bottom: 26vh;
-  animation: rotate7 35s linear infinite;
+  left: calc(149vw + 2700px);
+  bottom: 38vh;
+  animation: rotate7 63s linear infinite;
 }
 
 .box7 {
-  bottom: 26vh;
-  left: calc(128vw + 2700px);
+  bottom: 38vh;
+  left: calc(149vw + 2700px);
   background-image: url("../images/flags/php.gif");
-  animation: boxRotate7 35s linear infinite;
+  animation: boxRotate7 63s linear infinite;
 }
 
 @keyframes rotate7 {
   100% {
-    left: calc(128vw + 2700px);
-    bottom: 26vh;
+    left: calc(149vw + 2700px);
+    bottom: 38vh;
   }
   50% {
-    left: calc(128vw + 2700px - 11vw);
-    bottom: 26vh;
+    left: calc(149vw + 2700px + 14vw);
+    bottom: 39vh;
   }
   0% {
-    left: calc(128vw + 2700px);
-    bottom: 26vh;
+    left: calc(149vw + 2700px);
+    bottom: 38vh;
   }
 }
 @keyframes boxRotate7 {
   100% {
-    left: calc(128vw + 2700px - 7.5vw);
-    bottom: 26vh;
+    left: calc(149vw + 2700px - 7.5vw);
+    bottom: 38vh;
   }
   50% {
-    left: calc(128vw + 2700px - 7.5vw - 11vw);
-    bottom: 26vh;
+    left: calc(149vw + 2700px - 7.5vw + 14vw);
+    bottom: 39vh;
   }
   0% {
-    left: calc(128vw + 2700px - 7.5vw);
-    bottom: 26vh;
+    left: calc(149vw + 2700px - 7.5vw);
+    bottom: 38vh;
   }
 }
 .bird8 {
   background-image: url("../images/bird.gif");
-  left: calc(121vw + 2700px);
-  bottom: 56vh;
-  animation: rotate8 77s linear infinite;
+  left: calc(163vw + 2700px);
+  bottom: 80vh;
+  animation: rotate8 33s linear infinite;
 }
 
 .box8 {
-  bottom: 56vh;
-  left: calc(121vw + 2700px);
+  bottom: 80vh;
+  left: calc(163vw + 2700px);
   background-image: url("../images/flags/mysql.gif");
-  animation: boxRotate8 77s linear infinite;
+  animation: boxRotate8 33s linear infinite;
 }
 
 @keyframes rotate8 {
   100% {
-    left: calc(121vw + 2700px);
-    bottom: 56vh;
+    left: calc(163vw + 2700px);
+    bottom: 80vh;
   }
   50% {
-    left: calc(121vw + 2700px + 3vw);
-    bottom: 61vh;
+    left: calc(163vw + 2700px - 2vw);
+    bottom: 94vh;
   }
   0% {
-    left: calc(121vw + 2700px);
-    bottom: 56vh;
+    left: calc(163vw + 2700px);
+    bottom: 80vh;
   }
 }
 @keyframes boxRotate8 {
   100% {
-    left: calc(121vw + 2700px - 7.5vw);
-    bottom: 56vh;
+    left: calc(163vw + 2700px - 7.5vw);
+    bottom: 80vh;
   }
   50% {
-    left: calc(121vw + 2700px - 7.5vw + 3vw);
-    bottom: 61vh;
+    left: calc(163vw + 2700px - 7.5vw - 2vw);
+    bottom: 94vh;
   }
   0% {
-    left: calc(121vw + 2700px - 7.5vw);
-    bottom: 56vh;
+    left: calc(163vw + 2700px - 7.5vw);
+    bottom: 80vh;
   }
 }
 .bird21 {
   background-image: url("../images/bird2.gif");
-  left: calc(156vw + 4200px);
-  bottom: 56vh;
-  animation: rotate21 53s linear infinite;
+  left: calc(132vw + 4200px);
+  bottom: 38vh;
+  animation: rotate21 42s linear infinite;
 }
 
 .box21 {
-  bottom: 56vh;
-  left: calc(156vw + 4200px);
-  animation: boxRotate21 53s linear infinite;
+  bottom: 38vh;
+  left: calc(132vw + 4200px);
+  animation: boxRotate21 42s linear infinite;
   background-image: url("../images/flags/sb.gif");
 }
 
 @keyframes rotate21 {
   100% {
-    left: calc(156vw + 4200px);
-    bottom: 56vh;
+    left: calc(132vw + 4200px);
+    bottom: 38vh;
   }
   50% {
-    left: calc(156vw + 4200px - 4vw);
-    bottom: 66vh;
+    left: calc(132vw + 4200px + 7vw);
+    bottom: 53vh;
     transform: scale(0.8);
   }
   0% {
-    left: calc(156vw + 4200px);
-    bottom: 56vh;
+    left: calc(132vw + 4200px);
+    bottom: 38vh;
   }
 }
 @keyframes boxRotate21 {
   100% {
-    left: calc(156vw + 4200px - 7.5vw);
-    bottom: 56vh;
+    left: calc(132vw + 4200px - 7.5vw);
+    bottom: 38vh;
   }
   50% {
-    left: calc(156vw + 4200px - 7.5vw - 4vw);
-    bottom: 66vh;
+    left: calc(132vw + 4200px - 7.5vw + 7vw);
+    bottom: 53vh;
   }
   0% {
-    left: calc(156vw + 4200px - 7.5vw);
-    bottom: 56vh;
+    left: calc(132vw + 4200px - 7.5vw);
+    bottom: 38vh;
   }
 }
 .bird22 {
   background-image: url("../images/bird2.gif");
-  left: calc(148vw + 4200px);
-  bottom: 50vh;
+  left: calc(116vw + 4200px);
+  bottom: 56vh;
   animation: rotate22 67s linear infinite;
 }
 
 .box22 {
-  bottom: 50vh;
-  left: calc(148vw + 4200px);
+  bottom: 56vh;
+  left: calc(116vw + 4200px);
   animation: boxRotate22 67s linear infinite;
   background-image: url("../images/flags/laragon.gif");
 }
 
 @keyframes rotate22 {
   100% {
-    left: calc(148vw + 4200px);
-    bottom: 50vh;
+    left: calc(116vw + 4200px);
+    bottom: 56vh;
   }
   50% {
-    left: calc(148vw + 4200px + 14vw);
-    bottom: 64vh;
+    left: calc(116vw + 4200px - 12vw);
+    bottom: 58vh;
     transform: scale(0.8);
   }
   0% {
-    left: calc(148vw + 4200px);
-    bottom: 50vh;
+    left: calc(116vw + 4200px);
+    bottom: 56vh;
   }
 }
 @keyframes boxRotate22 {
   100% {
-    left: calc(148vw + 4200px - 7.5vw);
-    bottom: 50vh;
+    left: calc(116vw + 4200px - 7.5vw);
+    bottom: 56vh;
   }
   50% {
-    left: calc(148vw + 4200px - 7.5vw + 14vw);
-    bottom: 64vh;
+    left: calc(116vw + 4200px - 7.5vw - 12vw);
+    bottom: 58vh;
   }
   0% {
-    left: calc(148vw + 4200px - 7.5vw);
-    bottom: 50vh;
+    left: calc(116vw + 4200px - 7.5vw);
+    bottom: 56vh;
   }
 }
 .bird23 {
   background-image: url("../images/bird2.gif");
-  left: calc(140vw + 4200px);
-  bottom: 50vh;
-  animation: rotate23 34s linear infinite;
+  left: calc(164vw + 4200px);
+  bottom: 56vh;
+  animation: rotate23 60s linear infinite;
 }
 
 .box23 {
-  bottom: 50vh;
-  left: calc(140vw + 4200px);
-  animation: boxRotate23 34s linear infinite;
+  bottom: 56vh;
+  left: calc(164vw + 4200px);
+  animation: boxRotate23 60s linear infinite;
   background-image: url("../images/flags/ps.gif");
 }
 
 @keyframes rotate23 {
   100% {
-    left: calc(140vw + 4200px);
-    bottom: 50vh;
+    left: calc(164vw + 4200px);
+    bottom: 56vh;
   }
   50% {
-    left: calc(140vw + 4200px + 9vw);
-    bottom: 61vh;
+    left: calc(164vw + 4200px - 11vw);
+    bottom: 64vh;
     transform: scale(0.8);
   }
   0% {
-    left: calc(140vw + 4200px);
-    bottom: 50vh;
+    left: calc(164vw + 4200px);
+    bottom: 56vh;
   }
 }
 @keyframes boxRotate23 {
   100% {
-    left: calc(140vw + 4200px - 7.5vw);
-    bottom: 50vh;
+    left: calc(164vw + 4200px - 7.5vw);
+    bottom: 56vh;
   }
   50% {
-    left: calc(140vw + 4200px - 7.5vw + 9vw);
-    bottom: 61vh;
+    left: calc(164vw + 4200px - 7.5vw - 11vw);
+    bottom: 64vh;
   }
   0% {
-    left: calc(140vw + 4200px - 7.5vw);
-    bottom: 50vh;
+    left: calc(164vw + 4200px - 7.5vw);
+    bottom: 56vh;
   }
 }
 .bird24 {
   background-image: url("../images/bird2.gif");
-  left: calc(172vw + 4200px);
-  bottom: 38vh;
-  animation: rotate24 46s linear infinite;
+  left: calc(180vw + 4200px);
+  bottom: 80vh;
+  animation: rotate24 76s linear infinite;
 }
 
 .box24 {
-  bottom: 38vh;
-  left: calc(172vw + 4200px);
-  animation: boxRotate24 46s linear infinite;
+  bottom: 80vh;
+  left: calc(180vw + 4200px);
+  animation: boxRotate24 76s linear infinite;
   background-image: url("../images/flags/vscode.gif");
 }
 
 @keyframes rotate24 {
   100% {
-    left: calc(172vw + 4200px);
-    bottom: 38vh;
+    left: calc(180vw + 4200px);
+    bottom: 80vh;
   }
   50% {
-    left: calc(172vw + 4200px + 7vw);
-    bottom: 43vh;
+    left: calc(180vw + 4200px + 20vw);
+    bottom: 87vh;
     transform: scale(0.8);
   }
   0% {
-    left: calc(172vw + 4200px);
-    bottom: 38vh;
+    left: calc(180vw + 4200px);
+    bottom: 80vh;
   }
 }
 @keyframes boxRotate24 {
   100% {
-    left: calc(172vw + 4200px - 7.5vw);
-    bottom: 38vh;
+    left: calc(180vw + 4200px - 7.5vw);
+    bottom: 80vh;
   }
   50% {
-    left: calc(172vw + 4200px - 7.5vw + 7vw);
-    bottom: 43vh;
+    left: calc(180vw + 4200px - 7.5vw + 20vw);
+    bottom: 87vh;
   }
   0% {
-    left: calc(172vw + 4200px - 7.5vw);
-    bottom: 38vh;
+    left: calc(180vw + 4200px - 7.5vw);
+    bottom: 80vh;
   }
 }
 .bird25 {
   background-image: url("../images/bird2.gif");
   left: calc(148vw + 4200px);
-  bottom: 62vh;
-  animation: rotate25 38s linear infinite;
+  bottom: 80vh;
+  animation: rotate25 65s linear infinite;
 }
 
 .box25 {
-  bottom: 62vh;
+  bottom: 80vh;
   left: calc(148vw + 4200px);
-  animation: boxRotate25 38s linear infinite;
+  animation: boxRotate25 65s linear infinite;
   background-image: url("../images/flags/github.gif");
 }
 
 @keyframes rotate25 {
   100% {
     left: calc(148vw + 4200px);
-    bottom: 62vh;
+    bottom: 80vh;
   }
   50% {
-    left: calc(148vw + 4200px + 15vw);
-    bottom: 69vh;
+    left: calc(148vw + 4200px + 4vw);
+    bottom: 89vh;
     transform: scale(0.8);
   }
   0% {
     left: calc(148vw + 4200px);
-    bottom: 62vh;
+    bottom: 80vh;
   }
 }
 @keyframes boxRotate25 {
   100% {
     left: calc(148vw + 4200px - 7.5vw);
-    bottom: 62vh;
+    bottom: 80vh;
   }
   50% {
-    left: calc(148vw + 4200px - 7.5vw + 15vw);
-    bottom: 69vh;
+    left: calc(148vw + 4200px - 7.5vw + 4vw);
+    bottom: 89vh;
   }
   0% {
     left: calc(148vw + 4200px - 7.5vw);
-    bottom: 62vh;
+    bottom: 80vh;
   }
 }/*# sourceMappingURL=birds.css.map */

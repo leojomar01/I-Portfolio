@@ -10,6 +10,7 @@
 
 .texts {
   z-index: 51;
+  touch-action: none;
 }
 .texts .content .welcome {
   width: 100vw;
