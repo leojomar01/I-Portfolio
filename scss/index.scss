@@ -102,6 +102,7 @@ $totalWidth:10500px;
         top: 0;
         bottom: 0;
         max-height: 100vh;
+        max-height: var(--doc-height);
         height: 100vh;
         height: var(--doc-height);
         overflow: scroll;
