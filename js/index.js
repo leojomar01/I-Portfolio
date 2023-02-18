@@ -10,7 +10,11 @@ let billboards = document.querySelector('.billboards');
 let model = document.querySelector('.model');
 let instruction = document.querySelector('.instruction');
 
-// let scrollLeftLoc = document.querySelector('.scrollLeftLoc');
+
+
+
+let totalVw = document.querySelector('.totalVw');
+let scrollLeftLoc = document.querySelector('.scrollLeftLoc');
 // window.setInterval(() => {
 //     scrollLeftLoc.innerHTML = path.scrollLeft;
 // }, 5);
@@ -22,12 +26,13 @@ document.addEventListener('scroll', horizontalScroll);
 function horizontalScroll(){
         path.scrollLeft = window.pageYOffset / 3;
         texts.scrollLeft = path.scrollLeft;
+        // totalVw.scrollLeft = path.scrollLeft;
         billboards.scrollLeft = path.scrollLeft;
         building1.scrollLeft = path.scrollLeft / 2;
         building2.scrollLeft = path.scrollLeft / 3;
         building3.scrollLeft = path.scrollLeft / 4;
 
-        if(path.scrollLeft >= 10200){
+        if(path.scrollLeft >= vpw * 7.8){
             document.querySelector('.contacts').classList.add('contactsAnimate');
         }
 }

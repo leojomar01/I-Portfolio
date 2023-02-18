@@ -2,7 +2,7 @@
     background-image: url('../images/messageBox.png');
     background-size: 100% 100%;
     background-repeat: no-repeat;
-    padding: 5vh;
+    padding: 5%;
     text-align: center;
     color: white;
     text-shadow: 1vh .5vh black;
@@ -15,7 +15,7 @@
         .content{
             .welcome{
                 width: 100vw;
-                height: 100vh;
+                height: 100%;
                 height: var(--doc-height);
                 display: grid;
                 gap: 0;
@@ -25,7 +25,7 @@
 
 
                 .intro{
-                    margin-bottom: 20vh;
+                    margin-bottom: 20%;
                     .name{
                         font-size: 10vh;
                     }
@@ -49,9 +49,9 @@
             }
             
             .about{
-                left: calc(100vw + 500px) ;
+                left: calc(125vw) ;
                 width: 100vw;
-                height: 100vh;
+                height: 100%;
                 height: var(--doc-height);
                 display: grid;
                 justify-content: center;
@@ -59,7 +59,7 @@
                 position: absolute;
 
                 .textBox{
-                    margin-top: -15vh;
+                    margin-top: -15%;
                     width: 70vw;
                     text-align: left;
                     .indent{
@@ -75,8 +75,8 @@
             .project{
                 position: absolute;
                 width: 30vw;
-                height: 70vh;
-                top: 20vh;
+                height: 70%;
+                top: 20%;
 
                 .title{
                     height: 50%;
@@ -85,7 +85,6 @@
                     display: grid;
                     justify-content: center;
                     align-items: center;
-                    border: 1px solid red;
 
                     h2{
                         color: rgb(119, 119, 119);
@@ -116,14 +115,14 @@
     .billboards{
         z-index: 40;
         .projects{
-            height: 100vh;
+            height: 100%;
             height: var(--doc-height);
 
             .billboard{
-                top: 20vh;
+                top: 20%;
                 position: absolute;
-                width: 30vw;
-                height: 70vh;
+                width: 30%;
+                height: 70%;
                 background-image: url('../images/billboard.png');
                 background-size: 100% 100%;
             }
@@ -133,12 +132,12 @@
 
 @for $i from 1 through 4{
     .billBoardProject#{$i}{
-        left: calc(100vw + 5500px + 500px * $i);
+        left: calc(100vw + 420vw + 40% * $i);
     }
 }
 @for $i from 1 through 1{
     .billBoardProject2#{$i}{
-        left: calc(100vw + 8000px + 500px * $i);
+        left: calc(100vw + 630vw + 40% * $i);
     }
 }
 

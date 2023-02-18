@@ -3,40 +3,40 @@
 }
 .planeSpl .planes .plane, .planeSpl .planes .box, .planeOts .planes .plane, .planeOts .planes .box {
   background-repeat: no-repeat;
-  background-size: auto 20vh;
-  width: 100vh;
-  height: 20vh;
+  background-size: auto 100%;
+  width: 100%;
+  height: 20%;
   position: absolute;
   animation: planeFlying linear infinite 5s;
 }
 .planeSpl .planes .boxSpl, .planeOts .planes .boxSpl {
-  left: calc(109vw + 2500px);
+  left: 279vw;
   background-image: url("../images/spl.gif");
 }
 .planeSpl .planes .spl, .planeOts .planes .spl {
   background-image: url("../images/plane.gif");
-  left: calc(2500px + 100vw);
+  left: 270vw;
 }
 .planeSpl .planes .boxOts, .planeOts .planes .boxOts {
-  left: calc(109vw + 4200px);
+  left: 419vw;
   background-image: url("../images/ots.gif");
 }
 .planeSpl .planes .ots, .planeOts .planes .ots {
   background-image: url("../images/plane.gif");
-  left: calc(100vw + 4200px);
+  left: 410vw;
 }
 
 @keyframes planeFlying {
   100% {
-    bottom: 75vh;
+    bottom: 75%;
   }
   75% {
-    bottom: 80vh;
+    bottom: 80%;
   }
   25% {
-    bottom: 70vh;
+    bottom: 70%;
   }
   0% {
-    bottom: 75vh;
+    bottom: 75%;
   }
 }/*# sourceMappingURL=planes.css.map */

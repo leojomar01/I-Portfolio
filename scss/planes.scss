@@ -6,28 +6,28 @@
 
         .plane, .box{
             background-repeat: no-repeat;
-            background-size: auto 20vh;
-            width: 100vh;
-            height: 20vh;
+            background-size: auto 100%;
+            width: 100%;
+            height: 20%;
             position: absolute;
             animation: planeFlying linear infinite 5s;
         }
         .boxSpl{
-            left: calc(109vw + 2500px);
+            left: calc(109vw + 170vw);
             background-image: url('../images/spl.gif');
         }
         .spl{
             background-image: url('../images/plane.gif');
-            left: calc(2500px + 100vw);
+            left: calc(100vw + 170vw);
         }
         .boxOts{
-            left: calc(109vw + 4200px);
+            left: calc(109vw + 310vw);
             background-image: url('../images/ots.gif');
         }
         
         .ots{
             background-image: url('../images/plane.gif');
-            left: calc(100vw + 4200px);
+            left: calc(100vw + 310vw);
 
         }
 
@@ -37,15 +37,15 @@
 
 @keyframes planeFlying{
     100% {
-        bottom: 75vh;
+        bottom: 75%;
     }
     75%{
-        bottom: 80vh;
+        bottom: 80%;
     }
     25% {
-        bottom: 70vh;
+        bottom: 70%;
     }
     0% {
-        bottom: 75vh;
+        bottom: 75%;
     }
 }

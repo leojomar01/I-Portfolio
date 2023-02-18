@@ -26,8 +26,8 @@ $boxSize:8vh;
 $flags:'css','html','js', 'laravel','reactJS','sass','php','mysql';
 $i:1;
 @each $flag in $flags{
-    $bottom:(6vh*random(10) + 20);
-    $left: calc((7vw * random(10)) + 100vw + 2700px);
+    $bottom:(6%*random(10) + 20);
+    $left: calc((7% * random(10)) + 100% + 180vw);
     $duration: random(50)+30s;
     .bird#{$i}{
         background-image: url('../images/bird.gif');
@@ -43,8 +43,8 @@ $i:1;
         animation: boxRotate#{$i} $duration linear infinite;
     }
 
-    $loc: random(40)-20vw;
-    $loc2: random(20)-5vh;
+    $loc: random(40)-20%;
+    $loc2: random(20)-5%;
 
     @keyframes rotate#{$i} {
         100% {
@@ -65,17 +65,17 @@ $i:1;
 
     @keyframes boxRotate#{$i} {
         100% {
-            left:calc($left - 7.5vw);
+            left:calc($left - 7.5%);
             bottom: $bottom;
         }
     
         50% {
-            left:calc($left - 7.5vw + $loc);
+            left:calc($left - 7.5% + $loc);
             bottom: calc($bottom + $loc2);
         }
     
         0% {
-            left:calc($left - 7.5vw);
+            left:calc($left - 7.5%);
             bottom: $bottom;
         }
     }
@@ -88,8 +88,8 @@ $i:1;
 $flags2:'sb','laragon','ps', 'vscode','github';
 $i:1;
 @each $flag2 in $flags2{
-    $bottom:(6vh*random(10) + 20);
-    $left: calc((8vw * random(10)) + 100vw + 4200px);
+    $bottom:(6%*random(10) + 20);
+    $left: calc((8% * random(10)) + 100% + 310vw);
     $duration: random(50)+30s;
     .bird2#{$i}{
         background-image: url('../images/bird2.gif');
@@ -104,8 +104,8 @@ $i:1;
         background-image: url('../images/flags/#{$flag2}.gif');
     }
 
-    $loc: random(40)-20vw;
-    $loc2: random(20)-5vh;
+    $loc: random(40)-20%;
+    $loc2: random(20)-5%;
 
     @keyframes rotate2#{$i} {
         100% {
@@ -127,17 +127,17 @@ $i:1;
 
     @keyframes boxRotate2#{$i} {
         100% {
-            left:calc($left - 7.5vw);
+            left:calc($left - 7.5%);
             bottom: $bottom;
         }
        
         50% {
-            left:calc($left - 7.5vw + $loc);
+            left:calc($left - 7.5% + $loc);
             bottom: calc($bottom + $loc2);
         }
        
         0% {
-            left:calc($left - 7.5vw);
+            left:calc($left - 7.5%);
             bottom: $bottom;
         }
     }

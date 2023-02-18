@@ -27,3 +27,11 @@ for(var x=1;x<=1;x++){
     billboard.classList.add('billboard','billBoardProject2'+x);
     document.querySelector('.billboards .projects').appendChild(billboard)
 }
+
+
+// for(var x=1;x<=15;x++){
+//     const vw = document.createElement('div');
+//     vw.classList.add('vw'+x,'vw');
+//     vw.innerHTML=x;
+//     document.querySelector('.totalVw .content').appendChild(vw);
+// }

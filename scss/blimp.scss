@@ -20,24 +20,24 @@ $boxSize:5vw;
     }
 }
 
-$locs:100,2000,5500,8000;
+$locs:10,130,420,620;
 $x:1;
 
 @each $loc in $locs{
     .blimp#{$x}{
-        left:calc($loc * 1px + 100vw);
+        left:calc($loc * 1% + 100%);
     }
     $x:$x+1;
 }
 
 @keyframes blimpMovement {
     100% {
-        bottom: 75vh;
+        bottom: 75%;
     }
     50% {
-        bottom: 70vh;
+        bottom: 70%;
     }
     0% {
-        bottom: 75vh;
+        bottom: 75%;
     }
 }

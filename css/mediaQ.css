@@ -1,6 +1,6 @@
 .portraitMode {
   display: none;
-  height: 100vh;
+  height: 100%;
   height: var(--doc-height);
 }
 .portraitMode h1 {

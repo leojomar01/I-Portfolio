@@ -8,13 +8,18 @@ let objects = [
     document.querySelector('.planeOts')
 ];
 
+
+vpw = window.innerWidth;
 let distance = [0,0,0,0];
 let moving = [false,false,false,false];
 let distanceMoved = [0,0,0,0];
 let movingSpeed = [-3,-3,2,2];
 let movingInterval =[100,100,10,10];
-let triggerLocation = [2500,3800,2500,4200];
+let triggerLocation = [vpw * 1.7,vpw * 3.1,vpw * 1.7,vpw * 3.1];
+// let triggerLocation = [50000000,50000000,50000000,50000000];
 
+console.log(vpw);
+console.log(vpw * 1.8);
 let birds = document.querySelectorAll('.birds');
     // scrolling event listener
 for(let i =0;i<=3;i++){

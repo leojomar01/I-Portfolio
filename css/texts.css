@@ -2,7 +2,7 @@
   background-image: url("../images/messageBox.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  padding: 5vh;
+  padding: 5%;
   text-align: center;
   color: white;
   text-shadow: 1vh 0.5vh black;
@@ -14,7 +14,7 @@
 }
 .texts .content .welcome {
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   height: var(--doc-height);
   display: grid;
   gap: 0;
@@ -23,7 +23,7 @@
   position: absolute;
 }
 .texts .content .welcome .intro {
-  margin-bottom: 20vh;
+  margin-bottom: 20%;
 }
 .texts .content .welcome .intro .name {
   font-size: 10vh;
@@ -42,9 +42,9 @@
   font-size: 5vh;
 }
 .texts .content .about {
-  left: calc(100vw + 500px);
+  left: 125vw;
   width: 100vw;
-  height: 100vh;
+  height: 100%;
   height: var(--doc-height);
   display: grid;
   justify-content: center;
@@ -52,7 +52,7 @@
   position: absolute;
 }
 .texts .content .about .textBox {
-  margin-top: -15vh;
+  margin-top: -15%;
   width: 70vw;
   text-align: left;
 }
@@ -65,8 +65,8 @@
 .texts .content .project {
   position: absolute;
   width: 30vw;
-  height: 70vh;
-  top: 20vh;
+  height: 70%;
+  top: 20%;
 }
 .texts .content .project .title {
   height: 50%;
@@ -75,7 +75,6 @@
   display: grid;
   justify-content: center;
   align-items: center;
-  border: 1px solid red;
 }
 .texts .content .project .title h2 {
   color: rgb(119, 119, 119);
@@ -98,36 +97,36 @@
   z-index: 40;
 }
 .billboards .projects {
-  height: 100vh;
+  height: 100%;
   height: var(--doc-height);
 }
 .billboards .projects .billboard {
-  top: 20vh;
+  top: 20%;
   position: absolute;
-  width: 30vw;
-  height: 70vh;
+  width: 30%;
+  height: 70%;
   background-image: url("../images/billboard.png");
   background-size: 100% 100%;
 }
 
 .billBoardProject1 {
-  left: calc(100vw + 5500px + 500px);
+  left: calc(520vw + 40%);
 }
 
 .billBoardProject2 {
-  left: calc(100vw + 5500px + 1000px);
+  left: calc(520vw + 80%);
 }
 
 .billBoardProject3 {
-  left: calc(100vw + 5500px + 1500px);
+  left: calc(520vw + 120%);
 }
 
 .billBoardProject4 {
-  left: calc(100vw + 5500px + 2000px);
+  left: calc(520vw + 160%);
 }
 
 .billBoardProject21 {
-  left: calc(100vw + 8000px + 500px);
+  left: calc(730vw + 40%);
 }
 
 @keyframes blinker {
