@@ -10,10 +10,10 @@ let billboards = document.querySelector('.billboards');
 let model = document.querySelector('.model');
 let instruction = document.querySelector('.instruction');
 
-let scrollLeftLoc = document.querySelector('.scrollLeftLoc');
-window.setInterval(() => {
-    scrollLeftLoc.innerHTML = path.scrollLeft;
-}, 5);
+// let scrollLeftLoc = document.querySelector('.scrollLeftLoc');
+// window.setInterval(() => {
+//     scrollLeftLoc.innerHTML = path.scrollLeft;
+// }, 5);
 
 // Adding scroll event listener
 document.addEventListener('scroll', horizontalScroll);
