@@ -16,6 +16,7 @@ $duration:10s;
     position: absolute;
     left: 10500px;
     height:100vh;
+    height: var(--doc-height);
     width:100vw;
     overflow: scroll;
     .scroll{

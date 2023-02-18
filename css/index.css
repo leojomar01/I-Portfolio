@@ -21,11 +21,11 @@ body {
   z-index: 99;
   height: 100vh;
   height: var(--doc-height);
-  width: 20vw;
+  width: 25vw;
   background-color: white;
   border-radius: 5%;
   position: fixed;
-  left: 80vw;
+  left: 75vw;
   animation: blinker 1s infinite linear;
 }
 
