@@ -1,17 +1,20 @@
 .portraitMode{
     display: none;
     height: 100%;
+    border: 1px solid red;
     height: var(--doc-height);
+    padding: 20vw;
     h1{
-        margin-top: 50%;
+        margin-top: 100%;
     }
 }
 
 .instructionM{
     display: none;
     color: white;
+    animation: blinker 1s linear infinite;
 }
-@media screen and (max-width:700px) {
+@media screen and (max-width:900px) {
     .instructionM{
         display: block;
     }
