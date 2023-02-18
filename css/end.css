@@ -22,6 +22,7 @@
   height: var(--doc-height);
   width: 100vw;
   overflow: scroll;
+  touch-action: none;
 }
 .contacts::-webkit-scrollbar {
   display: none;
