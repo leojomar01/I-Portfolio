@@ -1,17 +1,17 @@
 .contactsAnimate .scroll {
-  animation: 15s scrollAnimate linear forwards;
+  animation: 10s scrollAnimate linear forwards;
 }
 .contactsAnimate .b1 {
-  animation: 15s b1Animate linear forwards;
+  animation: 10s b1Animate linear forwards;
 }
 .contactsAnimate .b2 {
-  animation: 15s b2Animate linear forwards;
+  animation: 10s b2Animate linear forwards;
 }
 .contactsAnimate .b3 {
-  animation: 15s b3Animate linear forwards;
+  animation: 10s b3Animate linear forwards;
 }
 .contactsAnimate .b4 {
-  animation: 15s b4Animate linear forwards;
+  animation: 10s b4Animate linear forwards;
 }
 
 .contacts {

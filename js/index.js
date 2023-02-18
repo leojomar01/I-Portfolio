@@ -27,7 +27,7 @@ function horizontalScroll(){
         building2.scrollLeft = path.scrollLeft / 3;
         building3.scrollLeft = path.scrollLeft / 4;
 
-        if(path.scrollLeft >= 10500){
+        if(path.scrollLeft >= 10200){
             document.querySelector('.contacts').classList.add('contactsAnimate');
         }
 }
