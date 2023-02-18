@@ -13,6 +13,8 @@ html,
 body {
   max-height: 100vh;
   min-height: 100vh;
+  max-height: var(--doc-height);
+  min-height: var(--doc-height);
   height: var(--doc-height);
 }
 
