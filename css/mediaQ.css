@@ -19,7 +19,7 @@
     display: none;
   }
   .swipeArea {
-    display: block;
+    visibility: visible;
   }
 }
 @media screen and (orientation: portrait) {
