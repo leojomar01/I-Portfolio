@@ -90,9 +90,6 @@ body {
   color: aliceblue;
 }
 
-.sticky-parent {
-  height: calc(2400vw + 100vh);
-}
 .sticky-parent .sticky {
   position: sticky;
   top: 0;
@@ -106,7 +103,6 @@ body {
   background-attachment: local;
 }
 .sticky-parent .sticky .content {
-  width: calc(800vw + 100%);
   height: 100%;
   height: var(--doc-height);
 }

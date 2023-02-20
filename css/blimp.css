@@ -29,10 +29,6 @@
   left: 520%;
 }
 
-.blimp4 {
-  left: 720%;
-}
-
 @keyframes blimpMovement {
   100% {
     bottom: 75%;

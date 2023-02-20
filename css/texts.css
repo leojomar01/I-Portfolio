@@ -125,8 +125,23 @@
   left: calc(520vw + 160%);
 }
 
+.blimp4 {
+  left: calc(680vw + 40%);
+}
+
 .billBoardProject21 {
-  left: calc(730vw + 40%);
+  left: calc(40% + 680vw + 40%);
+}
+
+.contacts {
+  left: 805vw;
+}
+
+.sticky-parent {
+  height: calc(2400vw + 100vh);
+}
+.sticky-parent .sticky .content {
+  width: calc(800vw + 100%);
 }
 
 @keyframes blinker {

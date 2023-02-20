@@ -97,10 +97,8 @@ body {
 
 
 
-$totalWidth:800vw;
 
 .sticky-parent{
-    height: calc(($totalWidth * 3) + 100vh);
 
     .sticky{
         position: sticky;
@@ -115,7 +113,6 @@ $totalWidth:800vw;
         background-attachment: local;
 
         .content{
-            width: calc($totalWidth  + 100%);
             height: 100%;
             height: var(--doc-height);
         }

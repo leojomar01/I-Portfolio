@@ -129,18 +129,38 @@
 
         }
    }
-
+$lastVW:0;
 @for $i from 1 through 4{
     .billBoardProject#{$i}{
         left: calc(100vw + 420vw + 40% * $i);
     }
+    $lastVW:calc(100vw + 420vw + 40vw * $i);
+}
+
+.blimp4{
+    left: calc($lastVW + 40%) ;
 }
 @for $i from 1 through 1{
     .billBoardProject2#{$i}{
-        left: calc(100vw + 630vw + 40% * $i);
+        left: calc(40% + $lastVW + 40% * $i);
     }
+    $lastVW: calc(40vw + $lastVW + 40vw * $i);
 }
 
+.contacts{
+    left: calc($lastVW + 45vw);
+}
+
+$totalWidth:$lastVW+40vw;
+
+.sticky-parent{
+    height: calc(($totalWidth * 3) + 100vh);
+    .sticky{
+        .content{
+            width: calc($totalWidth  + 100%);
+        }
+    }
+}
 
 
 @keyframes blinker {
